@@ -215,30 +215,29 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAB-TXT-DS-00000-02.WAV/WAV/SAB-TXT-DS-00000-02.WAV
 # sent_timecode = 23700, 32630
 # morphemic_text = ama gitire che kle gwichuk -e samla -le , che kle gwichuk -e die gut -e , ama gitire che kle gwichuk -e ese .
-# text = ama gitire che kle gwichuk e samlale , che kle gwichuke die gute , ama gitire che kle gwichuke ese .
+# text = ama gitire che kle gwichuke samlale , che kle gwichuke die gute , ama gitire che kle gwichuke ese .
 # text_en = So then he dreams about meat. He dreams about the things to eat. So then he dreams about this.
 # text_ortho = ama gitire che kle gwichuke samlale , che kle gwichuke die gute , ama gitire che kle gwichuke ese .
 1	ama	ama	ADV	_	_	5	discourse	_	AlignBegin=23700|AlignEnd=24177|GE=so|Gloss=so|nWord=1|RX=[ADV]
 2	gitire	gitire	ADV	_	_	5	advmod	_	AlignBegin=24177|AlignEnd=24654|GE=then|Gloss=then|nWord=2|RX=[ADV]
 3	che	che	PRON	_	_	5	nsubj	_	AlignBegin=24654|AlignEnd=25131|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=3|RX=[PRO]
 4	kle	kle	AUX	_	_	5	aux	_	AlignBegin=25131|AlignEnd=25608|GE=be|Gloss=be|nWord=4|RX=[V]
-5	gwichuk	gwichuk	VERB	_	_	0	root	_	AlignBegin=25608|AlignEnd=25846|GE=dream|Gloss=dream|nWord=5|RX=[V]
-6	e	_	AUX	_	_	5	aux/m	_	AlignBegin=25608|AlignEnd=26085|GE=[THM]|Gloss=-THM|nWord=5|RX=[V:ANY]
-7	samlale	samla	ADJ	_	_	5	advcl	_	AlignBegin=26085|AlignEnd=26562|GE=[ADJZ]|Gloss=meat-ADJZ|nWord=6|RX=[N>ADJ]
-8	,	_	PUNCT	_	_	5	punct	_	AlignBegin=26562|AlignEnd=27040|nWord=7
-9	che	che	PRON	_	_	11	nsubj	_	AlignBegin=27180|AlignEnd=27660|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=8|RX=[PRO]
-10	kle	kle	AUX	_	_	11	aux	_	AlignBegin=27660|AlignEnd=28140|GE=be|Gloss=be|nWord=9|RX=[V]
-11	gwichuke	gwichuk	VERB	_	_	5	conj	_	AlignBegin=28140|AlignEnd=28620|GE=[THM]|Gloss=dream-THM|nWord=10|RX=[V:ANY]
-12	die	die	NOUN	_	_	13	obj	_	AlignBegin=28620|AlignEnd=29100|GE=thing|Gloss=thing|nWord=11|RX=[N]
-13	gute	gut	VERB	_	_	11	advcl	_	AlignBegin=29100|AlignEnd=29580|GE=[THM]|Gloss=eat-THM|nWord=12|RX=[V:ANY]
-14	,	_	PUNCT	_	_	5	punct	_	AlignBegin=29580|AlignEnd=30060|nWord=13
-15	ama	ama	ADV	_	_	19	discourse	_	AlignBegin=30210|AlignEnd=30556|GE=so|Gloss=so|nWord=14|RX=[ADV]
-16	gitire	gitire	ADV	_	_	19	advmod	_	AlignBegin=30556|AlignEnd=30902|GE=then|Gloss=then|nWord=15|RX=[ADV]
-17	che	che	PRON	_	_	19	nsubj	_	AlignBegin=30902|AlignEnd=31248|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=16|RX=[PRO]
-18	kle	kle	AUX	_	_	19	aux	_	AlignBegin=31248|AlignEnd=31594|GE=be|Gloss=be|nWord=17|RX=[V]
-19	gwichuke	gwichuk	VERB	_	_	5	conj	_	AlignBegin=31594|AlignEnd=31940|GE=[THM]|Gloss=dream-THM|nWord=18|RX=[V:ANY]
-20	ese	ese	PRON	_	_	19	obl:mod	_	AlignBegin=31940|AlignEnd=32286|GE=that|Gloss=that|nWord=19|RX=[PRO]
-21	.	_	PUNCT	_	_	5	punct	_	AlignBegin=32286|AlignEnd=32630|Gloss=.|nWord=20
+5	gwichuke	gwichuk	VERB	_	_	0	root	_	AlignBegin=25608|AlignEnd=26085|GE=[THM]|Gloss=dream-THM|nWord=5|RX=[V:ANY]
+6	samlale	samla	NOUN	_	_	5	obl:mod	_	AlignBegin=26085|AlignEnd=26562|GE=[ADJZ]|Gloss=meat-ADJZ|nWord=6|RX=[N>ADJ]
+7	,	_	PUNCT	_	_	5	punct	_	AlignBegin=26562|AlignEnd=27040|nWord=7
+8	che	che	PRON	_	_	10	nsubj	_	AlignBegin=27180|AlignEnd=27660|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=8|RX=[PRO]
+9	kle	kle	AUX	_	_	10	aux	_	AlignBegin=27660|AlignEnd=28140|GE=be|Gloss=be|nWord=9|RX=[V]
+10	gwichuke	gwichuk	VERB	_	_	5	conj	_	AlignBegin=28140|AlignEnd=28620|GE=[THM]|Gloss=dream-THM|nWord=10|RX=[V:ANY]
+11	die	die	NOUN	_	_	12	obj	_	AlignBegin=28620|AlignEnd=29100|GE=thing|Gloss=thing|nWord=11|RX=[N]
+12	gute	gut	VERB	_	_	10	advcl	_	AlignBegin=29100|AlignEnd=29580|GE=[THM]|Gloss=eat-THM|nWord=12|RX=[V:ANY]
+13	,	_	PUNCT	_	_	5	punct	_	AlignBegin=29580|AlignEnd=30060|nWord=13
+14	ama	ama	ADV	_	_	18	discourse	_	AlignBegin=30210|AlignEnd=30556|GE=so|Gloss=so|nWord=14|RX=[ADV]
+15	gitire	gitire	ADV	_	_	18	advmod	_	AlignBegin=30556|AlignEnd=30902|GE=then|Gloss=then|nWord=15|RX=[ADV]
+16	che	che	PRON	_	_	18	nsubj	_	AlignBegin=30902|AlignEnd=31248|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=16|RX=[PRO]
+17	kle	kle	AUX	_	_	18	aux	_	AlignBegin=31248|AlignEnd=31594|GE=be|Gloss=be|nWord=17|RX=[V]
+18	gwichuke	gwichuk	VERB	_	_	5	conj	_	AlignBegin=31594|AlignEnd=31940|GE=[THM]|Gloss=dream-THM|nWord=18|RX=[V:ANY]
+19	ese	ese	PRON	_	_	18	obl:mod	_	AlignBegin=31940|AlignEnd=32286|GE=that|Gloss=that|nWord=19|RX=[PRO]
+20	.	_	PUNCT	_	_	5	punct	_	AlignBegin=32286|AlignEnd=32630|Gloss=.|nWord=20
 
 # sent_id = SAB-TXT-DS-00000-02_06-06
 # speaker_id = @02
@@ -1236,7 +1235,7 @@
 3	kle	kle	AUX	_	_	7	aux	_	AlignBegin=222032|AlignEnd=222693|GE=be|Gloss=be|nWord=3|RX=[V]
 4	este	este	DET	_	_	5	det	_	AlignBegin=222693|AlignEnd=223354|GE=that|Gloss=that|nWord=4|RX=[DET]
 5	die	die	NOUN	_	_	7	obj	_	AlignBegin=223354|AlignEnd=224015|GE=thing|Gloss=thing|nWord=5|RX=[N]
-6	dakale	daka	ADJ	_	_	5	amod	_	AlignBegin=224015|AlignEnd=224676|GE=[ADJZ]|Gloss=pound-ADJZ|nWord=6|RX=[N>ADJ]
+6	dakale	daka	VERB	_	_	5	acl	_	AlignBegin=224015|AlignEnd=224676|GE=[ADJZ]|Gloss=pound-ADJZ|nWord=6|RX=[N>ADJ]
 7	usale	usale	VERB	_	Foreign=Yes	0	root	_	AlignBegin=224676|AlignEnd=225337|GE=use|Gloss=use|Lang=es|nWord=7|RX=[V]
 8	.	_	PUNCT	_	_	7	punct	_	AlignBegin=225337|AlignEnd=226000|Gloss=.|nWord=8
 
@@ -4569,7 +4568,7 @@
 6	gnome	gnome	NOUN	_	_	7	nsubj	_	AlignBegin=180585|AlignEnd=181003|GE=clothes|Gloss=clothes|nWord=6|RX=[N]
 7	esta	esta	VERB	_	Foreign=Yes	3	conj	_	AlignBegin=181003|AlignEnd=181421|GE=be|Gloss=be|Lang=es|nWord=7|RX=[V]
 8	miaska	miaska	ADJ	_	_	7	xcomp	_	AlignBegin=181421|AlignEnd=181839|GE=dirty|Gloss=dirty|nWord=8|RX=[ADJ]
-9	duile	dui	ADJ	_	_	8	amod	_	AlignBegin=181839|AlignEnd=182257|GE=[ADJZ]|Gloss=dirt-ADJZ|nWord=9|RX=[N>ADJ]
+9	duile	dui	NOUN	_	_	8	obl:mod	_	AlignBegin=181839|AlignEnd=182257|GE=[ADJZ]|Gloss=dirt-ADJZ|nWord=9|RX=[N>ADJ]
 10	,	_	PUNCT	_	_	11	punct	_	AlignBegin=182257|AlignEnd=182675|nWord=10
 11	che	che	PRON	_	_	15	nsubj	_	AlignBegin=182695|AlignEnd=183022|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=11|RX=[PRO]
 12	tiene	tiene	AUX	_	Foreign=Yes	13	aux	_	AlignBegin=183022|AlignEnd=183349|GE=have|Gloss=have|Lang=es|nWord=12|RX=[V]
@@ -5218,7 +5217,7 @@
 4	gute	gut	VERB	_	_	0	root	_	AlignBegin=56572|AlignEnd=56826|GE=[THM]|Gloss=eat-THM|nWord=4|RX=[V:ANY]
 5	.	_	PUNCT	_	_	4	punct	_	AlignBegin=56826|AlignEnd=57080|Gloss=.|nWord=5
 
-# sent_id = klamengda dike cha kle ya chke aqui aini cha dike_-
+# sent_id = SAB-TXT-PA-00000-08_01-01
 # speaker_id = @08
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAB-TXT-PA-00000-08.WAV/WAV/SAB-TXT-PA-00000-08.WAV
 # sent_timecode = 33050, 37180
