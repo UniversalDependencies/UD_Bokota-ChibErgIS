@@ -284,7 +284,7 @@
 # text_ortho = ama gitire tiene che kiro che daba hokeda bagedale .
 1	ama	ama	ADV	_	_	9	discourse	_	AlignBegin=43230|AlignEnd=43838|GE=so|Gloss=so|nWord=1|RX=[ADV]
 2	gitire	gitire	ADV	_	_	9	advmod	_	AlignBegin=43838|AlignEnd=44446|GE=then|Gloss=then|nWord=2|RX=[ADV]
-3	tiene	tiene	AUX	_	Foreign=Yes	9	aux	_	AlignBegin=44446|AlignEnd=45054|GE=have|Gloss=have|Lang=es|nWord=3|RX=[V]
+3	tiene	tiene	AUX	_	_	9	aux	_	AlignBegin=44446|AlignEnd=45054|GE=have|Gloss=have|nWord=3|RX=[V]
 4	che	che	PRON	_	_	5	nmod:poss	_	AlignBegin=45054|AlignEnd=45662|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=4|RX=[PRO]
 5	kiro	kiro	NOUN	_	_	9	nsubj	_	AlignBegin=45662|AlignEnd=46270|GE=child|Gloss=child|nWord=5|RX=[N]
 6	che	che	PRON	_	_	7	nmod:poss	_	AlignBegin=46270|AlignEnd=46878|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=6|RX=[PRO]
@@ -316,22 +316,22 @@
 # text = no , che me hokekali lengale , entonces che kle oinda gute daba dra dike .
 # text_en = But no, it is not a bad behavior. So they eat the oinda with their brother's corpse.
 # text_ortho = no , che me hokekali lengale , entonces che kle oinda gute daba dra dike .
-1	no	no	PART	_	_	6	advmod	_	AlignBegin=70930|AlignEnd=71433|GE=[NEG]|Gloss=NEG|nWord=1|RX=[VERBPRT]
-2	,	_	PUNCT	_	_	6	punct	_	AlignBegin=71433|AlignEnd=71936|nWord=2
-3	che	che	PRON	_	_	6	nsubj	_	AlignBegin=71936|AlignEnd=72439|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=3|RX=[PRO]
-4	me	me	AUX	_	Polarity=Neg	6	aux	_	AlignBegin=72439|AlignEnd=72942|GE=[NEG]|Gloss=NEG|nWord=4|RX=[VERBPRT]
-5	hokekali	hokekali	AUX	_	_	6	cop	_	AlignBegin=72942|AlignEnd=73445|GE=want|Gloss=gowant|nWord=5|RX=[VERBPRT]
-6	lengale	lengale	ADV	_	_	0	root	_	AlignBegin=73445|AlignEnd=73948|GE=evil|Gloss=evil|nWord=6|RX=[ADV]
-7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=73948|AlignEnd=74450|nWord=7
+1	no	no	PART	_	_	5	advmod	_	AlignBegin=70930|AlignEnd=71433|GE=[NEG]|Gloss=NEG|nWord=1|RX=[VERBPRT]
+2	,	_	PUNCT	_	_	5	punct	_	AlignBegin=71433|AlignEnd=71936|nWord=2
+3	che	che	PRON	_	_	5	nsubj	_	AlignBegin=71936|AlignEnd=72439|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=3|RX=[PRO]
+4	me	me	AUX	_	Polarity=Neg	5	aux	_	AlignBegin=72439|AlignEnd=72942|GE=[NEG]|Gloss=NEG|nWord=4|RX=[VERBPRT]
+5	hokekali	hokekali	VERB	_	_	0	root	_	AlignBegin=72942|AlignEnd=73445|GE=want|Gloss=gowant|nWord=5|RX=[VERBPRT]|wordform=hokeali
+6	lengale	lengale	ADV	_	_	5	xcomp	_	AlignBegin=73445|AlignEnd=73948|GE=evil|Gloss=evil|nWord=6|RX=[ADV]
+7	,	_	PUNCT	_	_	5	punct	_	AlignBegin=73948|AlignEnd=74450|nWord=7
 8	entonces	entonces	ADV	_	Foreign=Yes	12	advmod	_	AlignBegin=74465|AlignEnd=74841|GE=so|Gloss=so|Lang=es|nWord=8|RX=[ADV]
 9	che	che	PRON	_	_	12	nsubj	_	AlignBegin=74841|AlignEnd=75217|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=9|RX=[PRO]
 10	kle	kle	AUX	_	_	12	aux	_	AlignBegin=75217|AlignEnd=75593|GE=be|Gloss=be|nWord=10|RX=[V]
 11	oinda	oinda	NOUN	_	_	12	obj	_	AlignBegin=75593|AlignEnd=75969|GE=food_type|Gloss=food_type|nWord=11|RX=[N]
-12	gute	gut	VERB	_	_	6	advcl	_	AlignBegin=75969|AlignEnd=76345|GE=[THM]|Gloss=eat-THM|nWord=12|RX=[V:ANY]
+12	gute	gut	VERB	_	_	5	advcl	_	AlignBegin=75969|AlignEnd=76345|GE=[THM]|Gloss=eat-THM|nWord=12|RX=[V:ANY]
 13	daba	daba	NOUN	_	_	14	nmod:poss	_	AlignBegin=76345|AlignEnd=76721|GE=brother|Gloss=brother|nWord=13|RX=[N]
 14	dra	dra	NOUN	_	_	12	obl:arg	_	AlignBegin=76721|AlignEnd=77097|GE=corpse|Gloss=corpse|nWord=14|RX=[N]
 15	dike	dike	ADP	_	_	14	case	_	AlignBegin=77097|AlignEnd=77473|GE=[INST]|Gloss=INST|nWord=15|RX=[ADP]
-16	.	_	PUNCT	_	_	6	punct	_	AlignBegin=77473|AlignEnd=77845|Gloss=.|nWord=16
+16	.	_	PUNCT	_	_	5	punct	_	AlignBegin=77473|AlignEnd=77845|Gloss=.|nWord=16
 
 # sent_id = SAB-TXT-BS-00000-01_04-04
 # speaker_id = @01
@@ -2165,6 +2165,44 @@
 4	aini	aini	ADV	_	_	3	obl:lmod	_	AlignBegin=78159|AlignEnd=78457|GE=here|Gloss=here|nWord=4|RX=[ADV]
 5	.	_	PUNCT	_	_	2	punct	_	AlignBegin=78457|AlignEnd=78755|Gloss=.|nWord=5
 
+# sent_id = SAB-TXT-AN-00001-03_26-26
+# speaker_id = @03
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAB-TXT-AN-00001-03.WAV/WAV/SAB-TXT-AN-00001-03.WAV
+# sent_timecode = 83360, 104640
+# morphemic_text = cha cheisuli cha nienu -a kwia toi iani cha kle nga kada kle Ugachia giti .
+# text = cha cheisuli cha nienua kwia toi iani cha kle nga kada kle Ugachia giti .
+# text_en = ‎‎My grandmother and my father's people live where I am in the village called Ugatchia.
+# text_ortho = cha cheisuli cha nienua kwia toi iani cha kle nga kada kle ugachia giti .
+1	cha	cha	PRON	_	_	2	nmod:poss	_	AlignBegin=83360|AlignEnd=84779|GE=[1SG]|Gloss=1SG|nWord=1|RX=[PRO]
+2	cheisuli	cheisuli	NOUN	_	_	6	nsubj	_	AlignBegin=84779|AlignEnd=86198|GE=grandmother|Gloss=grandmother|nWord=2|RX=[N]
+3	cha	cha	PRON	_	_	4	nmod:poss	_	AlignBegin=86198|AlignEnd=87617|GE=[1SG]|Gloss=1SG|nWord=3|RX=[PRO]
+4	nienua	nienu	NOUN	_	_	2	conj	_	AlignBegin=87617|AlignEnd=89036|GE=[POSS]|Gloss=father-POSS|nWord=4|RX=[N:ANY]
+5	kwia	kwia	NOUN	_	_	2	conj	_	AlignBegin=89036|AlignEnd=90455|GE=people|Gloss=people|nWord=5|RX=[N]
+6	toi	toi	VERB	_	_	0	root	_	AlignBegin=90455|AlignEnd=91874|GE=live|Gloss=live|nWord=6|RX=[VI]
+7	iani	iani	ADV	_	_	6	obl:lmod	_	AlignBegin=91874|AlignEnd=93293|GE=there|Gloss=there|nWord=7|RX=[ADV]
+8	cha	cha	PRON	_	_	9	nsubj	_	AlignBegin=93293|AlignEnd=94712|GE=[1SG]|Gloss=1SG|nWord=8|RX=[PRO]
+9	kle	kle	AUX	_	_	6	obl:lmod	_	AlignBegin=94712|AlignEnd=96131|GE=be|Gloss=be|nWord=9|RX=[V]
+10	nga	nga	NOUN	_	_	11	nsubj:pass	_	AlignBegin=96131|AlignEnd=97550|GE=village|Gloss=village|nWord=10|RX=[N]
+11	kada	kada	VERB	_	_	6	ccomp	_	AlignBegin=97550|AlignEnd=98969|GE=name|Gloss=name|nWord=11|RX=[N]
+12	kle	kle	AUX	_	_	11	aux:pass	_	AlignBegin=98969|AlignEnd=100388|GE=be|Gloss=be|nWord=12|RX=[V]
+13	Ugachia	Ugachia	NOUN	_	_	11	xcomp	_	AlignBegin=100388|AlignEnd=101807|GE=[Ugachia]|Gloss=Ugachia|nWord=13|RX=[N]
+14	giti	giti	ADP	_	_	11	mark	_	AlignBegin=101807|AlignEnd=103226|GE=[LOC]|Gloss=LOC|nWord=14|RX=[ADP]
+15	.	_	PUNCT	_	_	6	punct	_	AlignBegin=103226|AlignEnd=104640|Gloss=.|nWord=15
+
+# sent_id = SAB-TXT-AN-00001-03_27-27
+# speaker_id = @03
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAB-TXT-AN-00001-03.WAV/WAV/SAB-TXT-AN-00001-03.WAV
+# sent_timecode = 105160, 106790
+# morphemic_text = kada kle Ugachia giti .
+# text = kada kle Ugachia giti .
+# text_en = ‎‎Named Ugatchia.
+# text_ortho = kada kle ugachia giti .
+1	kada	kada	VERB	_	_	0	root	_	AlignBegin=105160|AlignEnd=105486|GE=name|Gloss=name|nWord=1|RX=[N]
+2	kle	kle	AUX	_	_	1	aux:pass	_	AlignBegin=105486|AlignEnd=105812|GE=be|Gloss=be|nWord=2|RX=[V]
+3	Ugachia	Ugachia	NOUN	_	_	1	xcomp	_	AlignBegin=105812|AlignEnd=106138|GE=[Ugachia]|Gloss=Ugachia|nWord=3|RX=[N]
+4	giti	giti	ADP	_	_	1	mark	_	AlignBegin=106138|AlignEnd=106464|GE=[LOC]|Gloss=LOC|nWord=4|RX=[ADP]
+5	.	_	PUNCT	_	_	1	punct	_	AlignBegin=106464|AlignEnd=106790|Gloss=.|nWord=5
+
 # sent_id = SAB-TXT-AN-00001-03_28-28
 # speaker_id = @03
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAB-TXT-AN-00001-03.WAV/WAV/SAB-TXT-AN-00001-03.WAV
@@ -2425,6 +2463,26 @@
 1	gai	gai	VERB	_	_	0	root	_	AlignBegin=30725|AlignEnd=31228|GE=pick_up|Gloss=pick_up|nWord=1|RX=[VT]
 2	ugda	ugda	NOUN	_	_	1	obj	_	AlignBegin=31228|AlignEnd=31731|GE=tree_type|Gloss=tree_type|nWord=2|RX=[N]
 3	.	_	PUNCT	_	_	1	punct	_	AlignBegin=31731|AlignEnd=32235|Gloss=.|nWord=3
+
+# sent_id = SAB-TXT-HO-00000-02_09-09
+# speaker_id = @02
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAB-TXT-HO-00000-02.WAV/WAV/SAB-TXT-HO-00000-02.WAV
+# sent_timecode = 36915, 40065
+# morphemic_text = giska kada kle blita ke luk -e ngania u sing ke .
+# text = giska kada kle blita ke luke ngania u sing ke .
+# text_en = (He) link with a rope called blita, at the top in the house's nostril.
+# text_ortho = giska kada kle blita ke luke ngania u sing ke .
+1	giska	giska	NOUN	_	_	2	nsubj:pass	_	AlignBegin=36915|AlignEnd=37201|GE=rope|Gloss=rope|nWord=1|RX=[N]
+2	kada	kada	VERB	_	_	6	ccomp	_	AlignBegin=37201|AlignEnd=37487|GE=name|Gloss=name|nWord=2|RX=[N]
+3	kle	kle	AUX	_	_	2	aux:pass	_	AlignBegin=37487|AlignEnd=37773|GE=be|Gloss=be|nWord=3|RX=[V]
+4	blita	blita	NOUN	_	_	2	xcomp	_	AlignBegin=37773|AlignEnd=38059|GE=branch|Gloss=branch|nWord=4|RX=[N]
+5	ke	ke	ADP	_	_	2	mark	_	AlignBegin=38059|AlignEnd=38345|GE=[LOC]|Gloss=LOC|nWord=5|RX=[ADP]
+6	luke	luk	VERB	_	_	0	root	_	AlignBegin=38345|AlignEnd=38631|GE=[THM]|Gloss=link-THM|nWord=6|RX=[V:ANY]
+7	ngania	ngania	ADV	_	_	6	obl:lmod	_	AlignBegin=38631|AlignEnd=38917|GE=up|Gloss=up|nWord=7|RX=[ADV]
+8	u	u	NOUN	_	_	9	nmod:poss	_	AlignBegin=38917|AlignEnd=39203|GE=house|Gloss=house|nWord=8|RX=[N]
+9	sing	sing	NOUN	_	_	6	obl:arg	_	AlignBegin=39203|AlignEnd=39489|GE=nose|Gloss=nose|nWord=9|RX=[N]
+10	ke	ke	ADP	_	_	9	case	_	AlignBegin=39489|AlignEnd=39775|GE=[LOC]|Gloss=LOC|nWord=10|RX=[ADP]
+11	.	_	PUNCT	_	_	6	punct	_	AlignBegin=39775|AlignEnd=40065|Gloss=.|nWord=11
 
 # sent_id = SAB-TXT-HO-00000-02_15-15
 # speaker_id = @02
@@ -4571,7 +4629,7 @@
 9	duile	dui	NOUN	_	_	8	obl:mod	_	AlignBegin=181839|AlignEnd=182257|GE=[ADJZ]|Gloss=dirt-ADJZ|nWord=9|RX=[N>ADJ]
 10	,	_	PUNCT	_	_	11	punct	_	AlignBegin=182257|AlignEnd=182675|nWord=10
 11	che	che	PRON	_	_	15	nsubj	_	AlignBegin=182695|AlignEnd=183022|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=11|RX=[PRO]
-12	tiene	tiene	AUX	_	Foreign=Yes	13	aux	_	AlignBegin=183022|AlignEnd=183349|GE=have|Gloss=have|Lang=es|nWord=12|RX=[V]
+12	tiene	tiene	AUX	_	_	13	aux	_	AlignBegin=183022|AlignEnd=183349|GE=have|Gloss=have|nWord=12|RX=[V]
 13	hoke	hoke	VERB	_	_	0	root	_	AlignBegin=183349|AlignEnd=183676|GE=go|Gloss=go|nWord=13|RX=[VI]
 14	gnome	gnome	NOUN	_	_	15	obj	_	AlignBegin=183676|AlignEnd=184003|GE=clothes|Gloss=clothes|nWord=14|RX=[N]
 15	glike	glik	VERB	_	_	13	advcl:purp	_	AlignBegin=184003|AlignEnd=184330|GE=[THM]|Gloss=clean-THM|nWord=15|RX=[V:ANY]
@@ -4789,8 +4847,8 @@
 # text_ortho = che chiu ne waninke .
 1	che	che	PRON	_	_	2	nsubj	_	AlignBegin=100610|AlignEnd=100942|GE=[1/2/3PL]|Gloss=1/2/3PL|nWord=1|RX=[PRO]
 2	chiu	chi	VERB	_	_	0	root	_	AlignBegin=100942|AlignEnd=101274|GE=[PST]|Gloss=come-PST|nWord=2|RX=[V:ANY]
-3	ne	ne	DET	_	_	2	obl:lmod	_	AlignBegin=101274|AlignEnd=101606|GE=that|Gloss=that|nWord=3|RX=[DET]
-4	waninke	waninke	ADP	_	_	3	dep:comp	_	AlignBegin=101606|AlignEnd=101938|GE=place_of|Gloss=place_of|nWord=4|RX=[ADV]
+3	ne	ne	DET	_	_	2	obl:lmod	_	AlignBegin=101274|AlignEnd=101606|GE=that|Gloss=that|nWord=3|RX=[DET]|Scrap=Yes
+4	waninke	waninke	ADP	_	_	3	case	_	AlignBegin=101606|AlignEnd=101938|GE=place_of|Gloss=place_of|nWord=4|RX=[ADV]
 5	.	_	PUNCT	_	_	2	punct	_	AlignBegin=101938|AlignEnd=102270|Gloss=.|nWord=5
 
 # sent_id = SAB-TXT-AN-00000-01_18-18
@@ -5776,6 +5834,21 @@
 15	Guacamaya	Guacamaya	PROPN	_	_	14	nmod	_	AlignBegin=72854|AlignEnd=73055|GE=[Guacamaya]|Gloss=Guacamaya|nWord=15|RX=[NPROP]
 16	.	_	PUNCT	_	_	6	punct	_	AlignBegin=73055|AlignEnd=73250|Gloss=.|nWord=16
 
+# sent_id = SAB-TXT-PA-00000-06_27-27
+# speaker_id = @06
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAB-TXT-PA-00000-06.WAV/WAV/SAB-TXT-PA-00000-06.WAV
+# sent_timecode = 84600, 86440
+# morphemic_text = ese nga kada kle Olechia .
+# text = ese nga kada kle Olechia .
+# text_en = This village is called Oletchia.
+# text_ortho = ese nga kada kle Olechia .
+1	ese	ese	DET	_	_	2	det	_	AlignBegin=84600|AlignEnd=84907|GE=that|Gloss=that|nWord=1|RX=[DET]
+2	nga	nga	NOUN	_	_	3	nsubj:pass	_	AlignBegin=84907|AlignEnd=85214|GE=village|Gloss=village|nWord=2|RX=[N]
+3	kada	kada	VERB	_	_	0	root	_	AlignBegin=85214|AlignEnd=85521|GE=name|Gloss=name|nWord=3|RX=[N]
+4	kle	kle	AUX	_	_	3	aux:pass	_	AlignBegin=85521|AlignEnd=85828|GE=be|Gloss=be|nWord=4|RX=[V]
+5	Olechia	Olechia	PROPN	_	_	3	xcomp	_	AlignBegin=85828|AlignEnd=86135|GE=[Olechia]|Gloss=Olechia|nWord=5|RX=[NPROP]
+6	.	_	PUNCT	_	_	3	punct	_	AlignBegin=86135|AlignEnd=86440|Gloss=.|nWord=6
+
 # sent_id = SAB-TXT-PA-00000-04_01-01
 # speaker_id = @04
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAB-TXT-PA-00000-04.WAV/WAV/SAB-TXT-PA-00000-04.WAV
@@ -5794,6 +5867,22 @@
 8	ble	ble	NOUN	_	_	7	obl:arg	_	AlignBegin=17025|AlignEnd=17390|GE=sea|Gloss=sea|nWord=8|RX=[N]
 9	ke	ke	ADP	_	_	8	case	_	AlignBegin=17390|AlignEnd=17755|GE=[LOC]|Gloss=LOC|nWord=9|RX=[ADP]
 10	.	_	PUNCT	_	_	5	punct	_	AlignBegin=17755|AlignEnd=18120|Gloss=.|nWord=10
+
+# sent_id = SAB-TXT-PA-00000-04_02-02
+# speaker_id = @04
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAB-TXT-PA-00000-04.WAV/WAV/SAB-TXT-PA-00000-04.WAV
+# sent_timecode = 19530, 23010
+# morphemic_text = chi nangka honinke kada kle Mongoloso .
+# text = chi nangka honinke kada kle Mongoloso .
+# text_en = There is a first river named Mongoloso.
+# text_ortho = chi nangka honinke kada kle Mongoloso .
+1	chi	chi	NOUN	_	_	4	nsubj:pass	_	AlignBegin=19530|AlignEnd=20027|GE=water|Gloss=water|nWord=1|RX=[N]
+2	nangka	nangka	ADJ	_	_	1	amod	_	AlignBegin=20027|AlignEnd=20524|GE=next|Gloss=next|nWord=2|RX=[ADJ]
+3	honinke	honinke	ADV	_	_	1	advmod	_	AlignBegin=20524|AlignEnd=21021|GE=first|Gloss=first|nWord=3|RX=[ADV]
+4	kada	kada	VERB	_	_	0	root	_	AlignBegin=21021|AlignEnd=21518|GE=name|Gloss=name|nWord=4|RX=[N]
+5	kle	kle	AUX	_	_	4	aux:pass	_	AlignBegin=21518|AlignEnd=22015|GE=be|Gloss=be|nWord=5|RX=[V]
+6	Mongoloso	Mongoloso	PROPN	_	_	4	xcomp	_	AlignBegin=22015|AlignEnd=22512|GE=[Mongoloso]|Gloss=Mongoloso|nWord=6|RX=[NPROP]
+7	.	_	PUNCT	_	_	4	punct	_	AlignBegin=22512|AlignEnd=23010|Gloss=.|nWord=7
 
 # sent_id = SAB-TXT-PA-00000-04_25-25
 # speaker_id = @04
@@ -5856,7 +5945,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAB-TXT-PA-00000-04.WAV/WAV/SAB-TXT-PA-00000-04.WAV
 # sent_timecode = 120435, 126440
 # morphemic_text = ba kle chk -e iani nga ske pueblo kada kle Lapista Kagnu .
-# text = ba kle chke iani nga ske pueblo kadakle Lapista Kagnu .
+# text = ba kle chke iani nga ske pueblo kada kle Lapista Kagnu .
 # text_en = You arrive in a village called Lapista, Kagnu.
 # text_ortho = ba kle chke iani ngaske pueblo kada kle lapista kagnu .
 1	ba	ba	PRON	_	_	3	nsubj	_	AlignBegin=120435|AlignEnd=120981|GE=[2SG]|Gloss=2SG|nWord=1|RX=[PRO]
@@ -5865,11 +5954,12 @@
 4	iani	iani	ADV	_	_	3	obl:lmod	_	AlignBegin=122073|AlignEnd=122619|GE=there|Gloss=there|nWord=4|RX=[ADV]
 5	nga	nga	NOUN	_	_	3	obl:arg	_	AlignBegin=122619|AlignEnd=122892|GE=village|Gloss=village|nWord=5|RX=[N]
 6	ske	ske	ADP	_	_	5	case	_	AlignBegin=122892|AlignEnd=123165|GE=[LOC]|Gloss=LOC|nWord=5|RX=[ADP]
-7	pueblo	pueblo	NOUN	_	_	3	obl:mod	_	AlignBegin=123165|AlignEnd=123711|GE=village|Gloss=village|nWord=6|RX=[N]
-8	kadakle	kadakle	AUX	_	_	7	acl:relcl	_	AlignBegin=123711|AlignEnd=124803|GE=be|Gloss=namebe|nWord=8|RX=[V]
-9	Lapista	Lapista	PROPN	_	_	8	obj	_	AlignBegin=124803|AlignEnd=125349|GE=[Lapista]|Gloss=Lapista|nWord=9|RX=[NPROP]
-10	Kagnu	Kagnu	PROPN	_	_	9	flat	_	AlignBegin=125349|AlignEnd=125895|GE=[Kagnu]|Gloss=Kagnu|nWord=10|RX=[NPROP]
-11	.	_	PUNCT	_	_	3	punct	_	AlignBegin=125895|AlignEnd=126440|Gloss=.|nWord=11
+7	pueblo	pueblo	NOUN	_	_	8	nsubj:pass	_	AlignBegin=123165|AlignEnd=123711|GE=village|Gloss=village|nWord=6|RX=[N]
+8	kada	kada	VERB	_	_	3	obl:lmod	_	AlignBegin=123711|AlignEnd=124257|GE=name|Gloss=name|nWord=7|RX=[N]
+9	kle	kle	AUX	_	_	8	aux:pass	_	AlignBegin=124257|AlignEnd=124803|GE=be|Gloss=be|nWord=8|RX=[V]
+10	Lapista	Lapista	PROPN	_	_	8	xcomp	_	AlignBegin=124803|AlignEnd=125349|GE=[Lapista]|Gloss=Lapista|nWord=9|RX=[NPROP]
+11	Kagnu	Kagnu	PROPN	_	_	10	flat	_	AlignBegin=125349|AlignEnd=125895|GE=[Kagnu]|Gloss=Kagnu|nWord=10|RX=[NPROP]
+12	.	_	PUNCT	_	_	3	punct	_	AlignBegin=125895|AlignEnd=126440|Gloss=.|nWord=11
 
 # sent_id = SAB-TXT-PA-00000-04_33-34
 # speaker_id = @04
@@ -5915,18 +6005,19 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAB-TXT-PA-00000-03.WAV/WAV/SAB-TXT-PA-00000-03.WAV
 # sent_timecode = 19285, 24455
 # morphemic_text = enusuli kada kle Inocentio hong tkunga dwa Rio Lui .
-# text = enusuli kadakle Inocentio hong tkunga dwa Rio Lui .
+# text = enusuli kada kle Inocentio hong tkunga dwa Rio Lui .
 # text_en = The grand father named Inocentio made the path down from Rio Luis.
 # text_ortho = enusuli kada kle inocentio hong tkunga dwa Rio Lui .
-1	enusuli	enusuli	NOUN	_	_	5	nsubj	_	AlignBegin=19285|AlignEnd=19802|GE=grandfather|Gloss=grandfather|nWord=1|RX=[N]
-2	kadakle	kadakle	AUX	_	_	1	acl:relcl	_	AlignBegin=19802|AlignEnd=20836|GE=be|Gloss=namebe|nWord=3|RX=[V]
-3	Inocentio	Inocentio	PROPN	_	_	2	obj	_	AlignBegin=20836|AlignEnd=21353|GE=[Inocentio]|Gloss=Inocentio|nWord=4|RX=[NPROP]
-4	hong	hong	NOUN	_	_	5	obj	_	AlignBegin=21353|AlignEnd=21870|GE=path|Gloss=path|nWord=5|RX=[N]
-5	tkunga	tkenga	VERB	_	_	0	root	_	AlignBegin=21870|AlignEnd=22387|GE=[cut].[PST]|Gloss=cut.PST|nWord=6|RX=[VT]
-6	dwa	dwa	ADV	_	_	5	obl:lmod	_	AlignBegin=22387|AlignEnd=22904|GE=down|Gloss=down|nWord=7|RX=[ADV]
-7	Rio	Rio	NOUN	_	_	5	obl:mod	_	AlignBegin=22904|AlignEnd=23421|GE=[Rio]|Gloss=Rio|nWord=8|RX=[N]
-8	Lui	Lui	PROPN	_	_	7	flat	_	AlignBegin=23421|AlignEnd=23938|GE=[Luis]|Gloss=Luis|nWord=9|RX=[NPROP]
-9	.	_	PUNCT	_	_	5	punct	_	AlignBegin=23938|AlignEnd=24455|Gloss=.|nWord=10
+1	enusuli	enusuli	NOUN	_	_	2	nsubj:pass	_	AlignBegin=19285|AlignEnd=19802|GE=grandfather|Gloss=grandfather|nWord=1|RX=[N]
+2	kada	kada	VERB	_	_	6	csubj	_	AlignBegin=19802|AlignEnd=20319|GE=name|Gloss=name|nWord=2|RX=[N]
+3	kle	kle	AUX	_	_	2	aux:pass	_	AlignBegin=20319|AlignEnd=20836|GE=be|Gloss=be|nWord=3|RX=[V]
+4	Inocentio	Inocentio	PROPN	_	_	2	xcomp	_	AlignBegin=20836|AlignEnd=21353|GE=[Inocentio]|Gloss=Inocentio|nWord=4|RX=[NPROP]
+5	hong	hong	NOUN	_	_	6	obj	_	AlignBegin=21353|AlignEnd=21870|GE=path|Gloss=path|nWord=5|RX=[N]
+6	tkunga	tkenga	VERB	_	_	0	root	_	AlignBegin=21870|AlignEnd=22387|GE=[cut].[PST]|Gloss=cut.PST|nWord=6|RX=[VT]
+7	dwa	dwa	ADV	_	_	6	obl:lmod	_	AlignBegin=22387|AlignEnd=22904|GE=down|Gloss=down|nWord=7|RX=[ADV]
+8	Rio	Rio	NOUN	_	_	6	obl:mod	_	AlignBegin=22904|AlignEnd=23421|GE=[Rio]|Gloss=Rio|nWord=8|RX=[N]
+9	Lui	Lui	PROPN	_	_	8	flat	_	AlignBegin=23421|AlignEnd=23938|GE=[Luis]|Gloss=Luis|nWord=9|RX=[NPROP]
+10	.	_	PUNCT	_	_	6	punct	_	AlignBegin=23938|AlignEnd=24455|Gloss=.|nWord=10
 
 # sent_id = SAB-TXT-PA-00000-03_15-15
 # speaker_id = @03
@@ -6034,6 +6125,22 @@
 3	cheku	chek	VERB	_	_	0	root	_	AlignBegin=33845|AlignEnd=34085|GE=[PST]|Gloss=stay-PST|nWord=3|RX=[V:ANY]
 4	aini	aini	ADV	_	_	3	obl:lmod	_	AlignBegin=34085|AlignEnd=34325|GE=here|Gloss=here|nWord=4|RX=[ADV]
 5	.	_	PUNCT	_	_	3	punct	_	AlignBegin=34325|AlignEnd=34565|Gloss=.|nWord=5
+
+# sent_id = SAB-TXT-AN-00000-07_15-15
+# speaker_id = @07
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAB-TXT-AN-00000-07.WAV/WAV/SAB-TXT-AN-00000-07.WAV
+# sent_timecode = 51450, 56470
+# morphemic_text = enusuli kada Ruperto Gonzales chk -u aini .
+# text = enusuli kada Ruperto Gonzales chku aini .
+# text_en = The ancestor named Ruperto Gonzales came here.
+# text_ortho = enusuli kada Ruperto Gonzales chku aini .
+1	enusuli	enusuli	NOUN	_	_	2	nsubj:pass	_	AlignBegin=51450|AlignEnd=52167|GE=grandfather|Gloss=grandfather|nWord=1|RX=[N]
+2	kada	kada	VERB	_	_	5	csubj	_	AlignBegin=52167|AlignEnd=52884|GE=name|Gloss=name|nWord=2|RX=[N]
+3	Ruperto	Ruperto	PROPN	_	_	2	xcomp	_	AlignBegin=52884|AlignEnd=53601|GE=[Ruperto]|Gloss=Ruperto|nWord=3|RX=[NPROP]
+4	Gonzales	Gonzales	PROPN	_	_	3	flat	_	AlignBegin=53601|AlignEnd=54318|GE=[Gonzales]|Gloss=Gonzales|nWord=4|RX=[NPROP]
+5	chku	chk	VERB	_	_	0	root	_	AlignBegin=54318|AlignEnd=55035|GE=[PST]|Gloss=arrive-PST|nWord=5|RX=[V:ANY]
+6	aini	aini	ADV	_	_	5	obl:lmod	_	AlignBegin=55035|AlignEnd=55752|GE=here|Gloss=here|nWord=6|RX=[ADV]
+7	.	_	PUNCT	_	_	5	punct	_	AlignBegin=55752|AlignEnd=56470|Gloss=.|nWord=7
 
 # sent_id = SAB-TXT-AN-00000-07_16-16
 # speaker_id = @07
