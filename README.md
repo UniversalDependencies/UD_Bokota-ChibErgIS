@@ -47,7 +47,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Benzerrak, Marie
+Contributors: Benzerrak, Marie; Cáceres Arandia, Natalia
 Contributing: here
 Contact: marie.benzerrak@laposte.net
 ===============================================================================
