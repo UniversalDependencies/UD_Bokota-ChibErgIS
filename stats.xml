@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>406</sentences><tokens>2713</tokens><words>2713</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>406</sentences><tokens>2713</tokens><words>2713</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="355" /><!-- cha, kle, hoke, che, chi, koi, ke, be, ba, chk, gut, giti, kiro, me, aini -->
+  <forms unique="428" /><!-- ., cha, kle, ,, che, hoke, koi, ke, be, ba, chiu, giti, gute, me, kiro -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">61</tag><!-- kweri, eru, muire, na, soli, agere, here, hombre, nangka, agale -->
+    <tag name="ADP">177</tag><!-- ke, giti, ske, dike, ole, para, hasta, aling, nante, waninke -->
+    <tag name="ADV">194</tag><!-- aini, ama, entonces, iani, despues, ya, eni, nengke, ai, ngania -->
+    <tag name="AUX">263</tag><!-- kle, be, me, gna, hoke, tiene, ponia -->
+    <tag name="CCONJ">1</tag><!-- i -->
+    <tag name="DET">22</tag><!-- ese, ne, este, la, todo -->
+    <tag name="NOUN">560</tag><!-- koi, kiro, chi, enusuli, u, chebi, die, gli, giska, nga -->
+    <tag name="NUM">16</tag><!-- gda, ite, apa, dos, gwa, tres -->
+    <tag name="PART">7</tag><!-- ai, mine, manire, no -->
+    <tag name="PRON">297</tag><!-- cha, che, ba, ese, maungia, mung, dion, usted -->
+    <tag name="PROPN">44</tag><!-- Flore, Olechia, Klamengda, Lui, Luis, Veragua, Mongoloso, Skwanangka, budachia, irongchia -->
+    <tag name="PUNCT">489</tag><!-- _ -->
+    <tag name="SCONJ">26</tag><!-- si, para, cuando, hasta -->
+    <tag name="VERB">538</tag><!-- hoke, chi, chk, gut, li, tk, ski, hue, gwe, toi -->
+    <tag name="X">18</tag><!-- y, o, pero, porque, que, ute -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="2">
+    <feat name="Foreign" value="Yes" upos="ADP,ADV,NOUN,SCONJ,VERB,X">109</feat><!-- para, entonces, y, hasta, ya, arroz, si, cuando, esta, hay -->
+    <feat name="Polarity" value="Neg" upos="AUX">26</feat><!-- me -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="37">
+    <dep name="acl">2</dep>
+    <dep name="acl:relcl">2</dep>
+    <dep name="advcl">36</dep>
+    <dep name="advcl:purp">20</dep>
+    <dep name="advmod">78</dep>
+    <dep name="amod">38</dep>
+    <dep name="aux">248</dep>
+    <dep name="aux:pass">10</dep>
+    <dep name="case">159</dep>
+    <dep name="cc">16</dep>
+    <dep name="ccomp">7</dep>
+    <dep name="clf">5</dep>
+    <dep name="compound">6</dep>
+    <dep name="compound:svc">7</dep>
+    <dep name="conj">70</dep>
+    <dep name="cop">4</dep>
+    <dep name="csubj">2</dep>
+    <dep name="dep">14</dep>
+    <dep name="det">10</dep>
+    <dep name="discourse">27</dep>
+    <dep name="flat">10</dep>
+    <dep name="mark">38</dep>
+    <dep name="nmod">19</dep>
+    <dep name="nmod:poss">71</dep>
+    <dep name="nsubj">330</dep>
+    <dep name="nsubj:pass">14</dep>
+    <dep name="nummod">3</dep>
+    <dep name="obj">257</dep>
+    <dep name="obl">1</dep>
+    <dep name="obl:arg">127</dep>
+    <dep name="obl:lmod">100</dep>
+    <dep name="obl:mod">26</dep>
+    <dep name="obl:tmod">29</dep>
+    <dep name="punct">489</dep>
+    <dep name="reparandum">9</dep>
+    <dep name="root">406</dep>
+    <dep name="xcomp">23</dep>
+  </deps>
+</treebank>
