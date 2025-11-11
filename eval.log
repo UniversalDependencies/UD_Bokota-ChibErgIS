@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Bokota-ChibErgIS:
-commit e8eeada1b95a8e21d4e323e954c9d8c7ad483c75
+commit 4514574580781a7c62639504cd9f53f65f3b3e27
+Merge: 54a7526 b0559dd
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:43:45 2025 +0200
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'sab_chibergis'
+Language code (from CoNLL-U file name) = 'sab'
+Found the following data files: sab_chibergis-ud-test.conllu
 Size: counted 2713 of 2713 words (nodes).
 Size: min(0, log((N/1000)**2)) = 1.99611006735359.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,22 +23,32 @@ Features: 135 out of 2713 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 27 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL        874
-Udapi: found 874 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 2713 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sab --max-err=10 UD_Bokota-ChibErgIS/sab_chibergis-ud-test.conllu
-*** PASSED ***
-Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
-(weight=0.256410256410256) * (score{size}=0.144483264587199) = 0.0370469909197945
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.72972972972973) = 0.0561330561330561
-(TOTAL score=0.192762751929673) * (availability=1) * (validity=1) = 0.192762751929673
-STARS = 1
-UD_Bokota-ChibErgIS	0.192762751929673	1
+[Line 10 Sent SAB-TXT-PA-00000-01_01-01]: [L3 Warning pron-det-without-prontype] The word 'ba' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 25 Sent SAB-TXT-PA-00000-01_02-02]: [L3 Warning pron-det-without-prontype] The word 'ba' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 42 Sent SAB-TXT-PA-00000-01_03-03]: [L3 Warning pron-det-without-prontype] The word 'ba' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 61 Sent SAB-TXT-PA-00000-01_04-04]: [L3 Warning pron-det-without-prontype] The word 'ba' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 74 Sent SAB-TXT-PA-00000-01_05-05]: [L3 Warning pron-det-without-prontype] The word 'ba' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 92 Sent SAB-TXT-PA-00000-01_08-08]: [L3 Warning pron-det-without-prontype] The word 'ba' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 202 Sent SAB-TXT-BS-00000-03_21-22]: [L3 Warning pron-det-without-prontype] The word 'ese' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 223 Sent SAB-TXT-DS-00000-02_03-05]: [L3 Warning pron-det-without-prontype] The word 'che' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 228 Sent SAB-TXT-DS-00000-02_03-05]: [L3 Warning pron-det-without-prontype] The word 'che' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 236 Sent SAB-TXT-DS-00000-02_03-05]: [L3 Warning pron-det-without-prontype] The word 'che' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+[Line 538 Sent SAB-TXT-OS-00002-01_25-26]: [L3 Syntax too-many-objects] Multiple direct objects [8, 10] ('ki', 'iki') under the predicate 'lite'.
+Syntax errors: 1
+Warnings: 321
+*** FAILED *** with 1 errors
+Exit code: 1
+Validity: 0.01
+(weight=0.111111111111111) * (score{features}=0.3) = 0.0333333333333333
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
+(weight=0.37037037037037) * (score{size}=0.144483264587199) = 0.053512320217481
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
+(weight=0.111111111111111) * (score{udeprels}=0.72972972972973) = 0.0810810810810811
+(TOTAL score=0.273990641676195) * (availability=1) * (validity=0.01) = 0.00273990641676195
+STARS = 0
+UD_Bokota-ChibErgIS	0.00273990641676195	0
