@@ -1,54 +1,7 @@
-Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
-Evaluating the following revision of UD_Bokota-ChibErgIS:
-commit 4514574580781a7c62639504cd9f53f65f3b3e27
-Merge: 54a7526 b0559dd
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
-Language-treebank code (from CoNLL-U file name) = 'sab_chibergis'
-Language code (from CoNLL-U file name) = 'sab'
-Found the following data files: sab_chibergis-ud-test.conllu
-Size: counted 2713 of 2713 words (nodes).
-Size: min(0, log((N/1000)**2)) = 1.99611006735359.
-Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
-Split: Did not find at least 10000 development words.
-Split: Did not find at least 10000 test words.
-Lemmas: '_' is the most frequent lemma.
-Universal POS tags: 15 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 1.
-Features: 135 out of 2713 total words have one or more features.
-Features: source of annotation (from README) factor is 1.
-Universal relations: 27 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 1.
-Genres: found 1 out of 18 known.
-/net/work/people/zeman/unidep/tools/validate.py --lang sab --max-err=10 UD_Bokota-ChibErgIS/sab_chibergis-ud-test.conllu
-[Line 10 Sent SAB-TXT-PA-00000-01_01-01]: [L3 Warning pron-det-without-prontype] The word 'ba' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 25 Sent SAB-TXT-PA-00000-01_02-02]: [L3 Warning pron-det-without-prontype] The word 'ba' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 42 Sent SAB-TXT-PA-00000-01_03-03]: [L3 Warning pron-det-without-prontype] The word 'ba' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 61 Sent SAB-TXT-PA-00000-01_04-04]: [L3 Warning pron-det-without-prontype] The word 'ba' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 74 Sent SAB-TXT-PA-00000-01_05-05]: [L3 Warning pron-det-without-prontype] The word 'ba' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 92 Sent SAB-TXT-PA-00000-01_08-08]: [L3 Warning pron-det-without-prontype] The word 'ba' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 202 Sent SAB-TXT-BS-00000-03_21-22]: [L3 Warning pron-det-without-prontype] The word 'ese' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 223 Sent SAB-TXT-DS-00000-02_03-05]: [L3 Warning pron-det-without-prontype] The word 'che' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 228 Sent SAB-TXT-DS-00000-02_03-05]: [L3 Warning pron-det-without-prontype] The word 'che' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 236 Sent SAB-TXT-DS-00000-02_03-05]: [L3 Warning pron-det-without-prontype] The word 'che' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 538 Sent SAB-TXT-OS-00002-01_25-26]: [L3 Syntax too-many-objects] Multiple direct objects [8, 10] ('ki', 'iki') under the predicate 'lite'.
-Syntax errors: 1
-Warnings: 321
-*** FAILED *** with 1 errors
-Exit code: 1
-Validity: 0.01
-(weight=0.111111111111111) * (score{features}=0.3) = 0.0333333333333333
-(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
-(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
-(weight=0.37037037037037) * (score{size}=0.144483264587199) = 0.053512320217481
-(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
-(weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
-(weight=0.111111111111111) * (score{udeprels}=0.72972972972973) = 0.0810810810810811
-(TOTAL score=0.273990641676195) * (availability=1) * (validity=0.01) = 0.00273990641676195
-STARS = 0
-UD_Bokota-ChibErgIS	0.00273990641676195	0
+Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
+Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
+Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
+Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
+from which this script is invoked and which also holds the validator.
+$0 == tools/evaluate_treebank.pl
+The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.
