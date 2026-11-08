@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>406</sentences><tokens>2713</tokens><words>2713</words><fused>0</fused></test>
   </size>
-  <lemmas unique="355" /><!-- cha, kle, hoke, che, chi, koi, ke, be, ba, chk, gut, giti, kiro, me, aini -->
+  <lemmas unique="353" /><!-- cha, kle, hoke, che, chi, koi, ke, be, ba, chk, gut, giti, kiro, me, aini -->
   <forms unique="428" /><!-- ., cha, kle, ,, che, hoke, koi, ke, be, ba, chiu, giti, gute, me, kiro -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -60,15 +60,15 @@
     <dep name="discourse">27</dep>
     <dep name="flat">10</dep>
     <dep name="mark">38</dep>
-    <dep name="nmod">19</dep>
+    <dep name="nmod">21</dep>
     <dep name="nmod:poss">71</dep>
     <dep name="nsubj">330</dep>
     <dep name="nsubj:pass">14</dep>
     <dep name="nummod">3</dep>
-    <dep name="obj">257</dep>
-    <dep name="obl">1</dep>
+    <dep name="obj">256</dep>
+    <dep name="obl">2</dep>
     <dep name="obl:arg">127</dep>
-    <dep name="obl:lmod">100</dep>
+    <dep name="obl:lmod">98</dep>
     <dep name="obl:mod">26</dep>
     <dep name="obl:tmod">29</dep>
     <dep name="punct">489</dep>
